@@ -1,0 +1,33 @@
+*{
+    font-family: "Helvetica Now Display";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.main{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+
+
+}
+
+
+.center{
+    color:  #333333;
+    padding: 100px 30px;
+    background: #097b4a;
+    font-size: 30px;
+    font-weight: 900;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    box-shadow: 0 4px 6px rgba(0, 1, 1, 1);
+}
